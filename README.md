@@ -20,3 +20,6 @@ https://www.youtube.com/watch?v=pKqdjaH1dRo
 Ethereum Roadmap
 https://www.youtube.com/watch?v=OQtRzhgHEBg
 
+
+news
+https://www.cryptocoinsnews.com/ethereum-news/
