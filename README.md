@@ -11,3 +11,7 @@ https://twitter.com/ethereumproject?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fco
 
 devcon3
 https://ethereumfoundation.org/devcon3/
+
+
+Crypto Economics
+https://www.youtube.com/watch?v=pKqdjaH1dRo
