@@ -15,3 +15,8 @@ https://ethereumfoundation.org/devcon3/
 
 Crypto Economics
 https://www.youtube.com/watch?v=pKqdjaH1dRo
+
+
+Ethereum Roadmap
+https://www.youtube.com/watch?v=OQtRzhgHEBg
+
