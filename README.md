@@ -23,3 +23,7 @@ https://www.youtube.com/watch?v=OQtRzhgHEBg
 
 news
 https://www.cryptocoinsnews.com/ethereum-news/
+
+
+
+About Dentacoin
