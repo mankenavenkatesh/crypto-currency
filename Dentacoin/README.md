@@ -27,7 +27,6 @@ Github
 Blog
 1) https://www.dentacoin.com/blog/why-did-we-premine-8-trillion-dentacoins/
 
-
 Team
 1) https://www.dentacoin.com/blog/proof-of-existence-dentacoin-team/
 
@@ -46,5 +45,12 @@ Slack
 etherscan for dentacoin
 1) https://etherscan.io/address/0x08d32b0da63e2c3bcf8019c9c5d849d7a9d791e6
 
+
+News
+1) https://steemit.com/crypto/@cryptopaul/ico-scam-alert-dentacoin-com
+
+
+Conference in september
+https://dentacoin.com/conferences/
 
 
