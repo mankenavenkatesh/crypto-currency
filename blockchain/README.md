@@ -1,5 +1,11 @@
 What is Block Chain?
 
+What is proof of work? How is it determined?
+
+What are the use cases of blockchain? Explain blockchain with a use case.
+
+What are differences between Public and Private Blockchains?
+
 
 
 References-
