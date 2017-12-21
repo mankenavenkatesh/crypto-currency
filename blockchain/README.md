@@ -21,3 +21,14 @@ Courses
 Semantic Blockchain
 1. https://semanticblocks.wordpress.com/
 
+
+
+Blockchain websites
+1. https://bitcoin.org/en/
+2. https://blockchainhub.net/blockchain-technology/
+3. https://blockchainhub.net/blockchain-intro/
+
+
+Blockchain Startups
+1. https://outlierventures.io/
+
