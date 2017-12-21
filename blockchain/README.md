@@ -31,6 +31,10 @@ Blockchain websites
 4. http://blockstrap.com/
 
 
+Blockchain with IOT
+1. https://www.i-scoop.eu/blockchain-distributed-ledger-technology/blockchain-iot/
+2. https://www.tcs.com/blockchain-for-iot
+
 
 Blockchain Startups
 1. https://outlierventures.io/
