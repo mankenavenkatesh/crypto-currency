@@ -23,11 +23,14 @@ Courses
 1. https://www.coursera.org/learn/cryptocurrency/home/welcome
 2. Pluralsight
 3. http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/
+4. https://www.youtube.com/watch?v=jKYhLpHJv8U
+
 
 
 
 Semantic Blockchain
 1. https://semanticblocks.wordpress.com/
+
 
 
 
