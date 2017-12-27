@@ -21,6 +21,8 @@ https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 Courses
 1. https://www.coursera.org/learn/cryptocurrency/home/welcome
+2. https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers
+
 2. Pluralsight
 3. http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/
 4. https://www.youtube.com/watch?v=jKYhLpHJv8U
