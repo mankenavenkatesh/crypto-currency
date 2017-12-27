@@ -56,3 +56,4 @@ Github
 
 Blockchain Developer Jobs 
 1. http://pragmaticcoders.com/jobs/blockchain-developer/
+2. https://blockgeeks.com/guides/?filter=latest
