@@ -52,3 +52,7 @@ Blockchain Startups
 
 Github
 1. https://github.com/search?utf8=%E2%9C%93&q=blockchain&type=
+
+
+Blockchain Developer Jobs 
+1. http://pragmaticcoders.com/jobs/blockchain-developer/
