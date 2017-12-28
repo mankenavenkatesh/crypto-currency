@@ -14,6 +14,19 @@ Methods to arrive at consensus
 Tools and applications that you can use to interact with the network
 
 
+Labs
+When you complete the labs in this course, you'll understand how to transfer assets, model, build, and programmatically interact with a blockchain network.
+
+Lab 1: Use the web-hosted Hyperledger Playground Composer to transfer assets in a car auction network.
+Lab 2: Model a simple network by using Hyperledger Composer that's installed on your local machine. (This lab only works on a Mac)
+Lab 3: Build a simple application that queries and updates the ledger by using chaincode.
+Lab 4: Build your own network.
+
+
 
 References-
 https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/supplement/670UF/about-this-course
+
+
+
+Settingup
