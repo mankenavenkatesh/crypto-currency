@@ -29,4 +29,7 @@ https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/suppleme
 
 
 
-Settingup
+Week 1 (Settingup)
+https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockchain/ibm-blockchain-essentials-for-developers/settingup/README.md
+
+
