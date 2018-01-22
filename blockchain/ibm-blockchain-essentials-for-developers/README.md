@@ -33,3 +33,5 @@ Week 1 (Settingup)
 https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockchain/ibm-blockchain-essentials-for-developers/settingup/README.md
 
 
+Week 2 (Leveraging Blockchain Benifits)
+https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockchain/ibm-blockchain-essentials-for-developers/LevaragingBlockchainBenifits/README.md
