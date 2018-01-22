@@ -35,3 +35,7 @@ https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockcha
 
 Week 2 (Leveraging Blockchain Benifits)
 https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockchain/ibm-blockchain-essentials-for-developers/LevaragingBlockchainBenifits/README.md
+
+
+Week 3 (Transform your business with blockchain)
+https://github.com/mankenavenkatesh/crypto-currency/blob/developer-view/blockchain/ibm-blockchain-essentials-for-developers/Transformyourbusinesswithblockchain/README.md
