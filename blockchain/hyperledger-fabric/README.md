@@ -8,3 +8,8 @@ How will it solve problems?
 What are components of Hyperledger fabric?
 
 How Hyperledger fabric actually work?
+
+
+References-
+https://media.readthedocs.org/pdf/hyperledger-fabric/latest/hyperledger-fabric.pdf
+https://www.youtube.com/watch?v=7EpPrSJtqZU&list=PLjsqymUqgpSRXC9ywNIVUUoGXelQa4olO
