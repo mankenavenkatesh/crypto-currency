@@ -6,7 +6,9 @@ What are the use cases of blockchain? Explain blockchain with a use case.
 
 What are differences between Public and Private Blockchains?
 
+What are different blockchain platforms?
 
+What is hyperledger? What is hyperledger fabric? how does it work?
 
 References-
 
