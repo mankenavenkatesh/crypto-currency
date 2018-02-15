@@ -10,6 +10,12 @@ What are components of Hyperledger fabric?
 How Hyperledger fabric actually work?
 
 
+Build use case (Supply chain of tuna fishing)
+1. 
+
+
 References-
 https://media.readthedocs.org/pdf/hyperledger-fabric/latest/hyperledger-fabric.pdf
 https://www.youtube.com/watch?v=7EpPrSJtqZU&list=PLjsqymUqgpSRXC9ywNIVUUoGXelQa4olO
+
+https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS171x+3T2017/course/
