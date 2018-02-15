@@ -145,16 +145,6 @@ Fabric-Certificate Authority
 
 
 
-
-
-
-
-
-
-
-
-
-
 How Hyperledger fabric actually work?
 
 
