@@ -6,10 +6,10 @@ We will be using Hyperledger Fabric's framework to keep track of each part of th
 
 
 Actors in the Network:-
-    Sarah - is the fisherman who sustainably and legally catches tuna.
-    Regulators - verify that the tuna has been legally and sustainably caught.
-    Miriam - is a restaurant owner who will serve as the end user, in this situation.
-    Carl - is another restaurant owner fisherman Sarah can sell tuna to.
+    1. Sarah - is the fisherman who sustainably and legally catches tuna.
+    2. Regulators - verify that the tuna has been legally and sustainably caught.
+    3. Miriam - is a restaurant owner who will serve as the end user, in this situation.
+    4. Carl - is another restaurant owner fisherman Sarah can sell tuna to.
 
 Roles of Actors in the network
 
@@ -67,6 +67,96 @@ Below is a summary of the tuna catch scenario presented in this section:
 4. In a separate business agreement, Sarah and Miriam agree on a special price of $50 per pound. They use the red channel's chaincode contract stipulating $50/lb. The red channel's ledger is updated with a block containing this transaction.
 
 
+
+Setting up the network
+    1. Technical Prerequisites
+        In order to successfully install Hyperledger Fabric, you should be familiar with Go and Node.js programming languages, and have the following features installed on your computer: cURL, Node.js, npm package manager, Go language, Docker, and Docker Compose.
+        
+    2. Installing Hyperledger Fabric Docker Images and Binaries
+        Next, we will download the latest released Docker images for Hyperledger Fabric, and tag them with the latest tag. Execute the command from within the directory into which you will extract the platform-specific binaries:
+        $ curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0-alpha
+        
+        This command downloads binaries for cryptogen, configtxgen, configxlator, peer AND downloads the Hyperledger Fabric Docker images. These assets are placed in a bin subdirectory of the current working directory.
+
+        To confirm and see the list of Docker images you’ve just downloaded, run:
+        $ docker images
+
+        Note the tags for each of the repositories above boxed in red. If the Docker images are not already tagged with the latest tag, perform the following command for each of the Docker images:
+        
+        $ docker tag hyperledger/fabric-tools:x86_64-1.0.2 hyperledger/fabric-tools:latest
+        
+        Swap out the blue portion with the tags you see in your list of repositories. Also, swap out the red portion with the name of the Docker image you are switching the tag for (e.g.: fabric-tools, fabric-ccenv, fabric-orderer, etc.). Repeat this step for all Docker images you see in the list.
+    3.  Installing Hyperledger Fabric
+        As an additional measure, you may want to add the bin subdirectory to your PATH environment variable, so these can be picked up without needing to qualify the PATH to each binary. You can do this by running the following:
+
+        $ export PATH=$PWD/bin:$PATH
+
+        To install the Hyperledger Fabric sample code which will be used in the tutorials, do:
+
+        $ git clone https://github.com/hyperledger/fabric-samples.git
+
+        $ cd fabric-samples/first-network
+        
+    4. Starting a Test Hyperledger Fabric Network
+        Now that we have successfully installed Hyperledger Fabric, we can walk through setting up a simple network that has two members. To refer back to our demonstrated scenario, the network includes asset management of each tuna verified, transferred, and purchased between Sarah, the fisherman, and Miriam, the restaurateur. We’ll create a simple two member network consisting of two organizations (effectively, Sarah and Miriam), each maintaining two peers and an ordering service.
+        
+        We will use Docker images to bootstrap our first Hyperledger Fabric network. It will also launch a container to run a scripted execution that will join peers to a channel, deploy, and instantiate the chaincode, and execute transactions against the chaincode.
+        
+    5. Getting Started with Your First Network
+    
+        Are you ready to get started? Run this command ( within the first-network folder ): 
+
+        $ ./byfn.sh -m generate
+
+        A brief description will appear, along with a Y/N command line prompt. Respond with a Y <Enter> to continue.
+
+        This step generates all of the certificates and keys for all our various network entities, including the genesis block used to bootstrap the ordering service and a collection of configuration transactions required to create a channel.
+
+        Next, you can start the network with the following command:
+
+        $ ./byfn.sh -m up
+
+        Another command line will appear, reply with Y <Enter> to continue.
+
+        Logs will appear in the command line, showing containers being launched, channels being created and joined, chaincode being installed, instantiated, and invoked on all the peers, as well as various transaction logs.
+
+        Troubleshooting Note: 
+        If you have difficulties with the two previous commands and you suspect that your Docker images may be at fault, you can start back from scratch, which will delete and untag the Docker images.
+
+        $ docker rmi -f $(docker images -q)
+
+        Once you run this command, return to the Installing Hyperledger Fabric Docker Images and Binaries page, at the beginning of this section.
+        
+        
+    6. Finishing Up and Shutting Down the Network
+    
+        Finally, let’s test bringing down this network.
+
+        Within the same terminal, do Control+C to exit the current execution.
+
+        Then, run the following command:
+
+        $ ./byfn.sh -m down
+
+        Another command line will appear, reply with Y <Enter> to continue.
+
+        This command will kill your containers, remove the crypto material and four artifacts, and delete the chaincode images from your Docker Registry.
+
+        And that’s it for a simple demonstration!
+
+        These simple steps show how we can easily spin up and bring down a Hyperledger Fabric network, given the code we have. In the next section, we will learn more about chaincode.
+
+
+
+
+
+
+        
+        
+
+
+
+        
 
 
 References-

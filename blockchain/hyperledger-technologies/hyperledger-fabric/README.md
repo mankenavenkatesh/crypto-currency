@@ -1,10 +1,5 @@
 HYPERLEDGER FABRIC
 
-Here is my understanding of hyperledger fabric and my experiments on hyperledger fabric
-What is Hyperledger Fabric?
-
-How will it solve problems?
-
 Elements of Hyperledger fabric-
 
 1. Channels are data partitioning mechanisms that allow transaction visibility for stakeholders only. Each channel is an independent chain of transaction blocks containing only transactions for that particular channel.
