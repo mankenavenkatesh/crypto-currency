@@ -143,7 +143,33 @@ Fabric-Certificate Authority
 
 
 
+Chaincode - Explained in Chaincode.md
 
+
+How Applications Interact with the Network
+
+    Applications use APIs to run smart contracts. In Hyperledger Fabric, these smart contracts are called chaincode. These contracts are hosted on the network, and identified by name and version. APIs are accessible with a software development kit, or SDK. Currently, Hyperledger Fabric has three options for developers: Node.js SDK, Java SDK, and CLI.
+    
+
+Application Flow Basics
+A developer creates an application and smart contract.
+The application will invoke calls within the smart contract via the Hyperledger Fabric Client SDK.
+These calls are processed by the business logic within the chaincode smart contract.
+A put or delete command will go through the consensus process and will be added to the blockchain within the ledger.
+A get command can only read from the world state, but it is not recorded on the blockchain.
+The application can access blockchain information via APIs.
+
+
+Application Flow Example
+Various users (fisherman, regulators, or restaurateurs etc.) will interact with the Node.js application.
+The client JS will send messages to the backend when the user interacts with the application.
+Reading or writing the ledger is known as a proposal (for example, querying a specific Tuna catch - queryTuna-  or recording a tuna catch - recordTuna). This proposal is built by our application via the SDK, and then sent to the endorsing peers.
+The endorsing peers will use the application-specific chaincode smart contract to simulate the transaction. If there are no issues, the transaction will be endorsed, and sent back to our application.
+Our application will then send the endorsed proposal to the ordering service via the SDK. The orderer will package many proposals from the whole network into a block. Then, it will broadcast the new block to the committing peers in the network.
+Finally, each committing peer will validate the block and write it to its ledger (shown in teal above). The transaction has now been committed, and any reads will reflect this change.
+
+    
+    
 
 How Hyperledger fabric actually work?
 

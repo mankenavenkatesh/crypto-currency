@@ -150,9 +150,30 @@ Setting up the network
 
 
 Chaincode for tunafishing
+    Explained in Chaincode.md
+    
+    
+How Applications Interact with the Network
 
+    Applications use APIs to run smart contracts. In Hyperledger Fabric, these smart contracts are called chaincode. These contracts are hosted on the network, and identified by name and version. APIs are accessible with a software development kit, or SDK. Currently, Hyperledger Fabric has three options for developers: Node.js SDK, Java SDK, and CLI.
+    
         
-        
+    Fabric Node.js SDK
+    In this exercise, we will be using the Node.js SDK (https://fabric-sdk-node.github.io/) to interact with the network, and, therefore, the ledger. The Hyperledger Fabric Client SDK makes it easy to use APIs to interact with a Hyperledger Fabric blockchain. This section will help you write your first application, starting with a test Hyperledger Fabric network, then learning the parameters of the sample smart contract, and lastly, developing the application to query and update ledger records.
+
+    For additional information, visit the Hyperledger Fabric Node SDK  documentation: https://fabric-sdk-node.github.io/tutorial-app-dev-env-setup.html.
+    
+    
+Hyperledger Fabric Tuna Application
+
+    The tuna application is going to demonstrate the creation and transfer of tuna fish shipments between actors leveraging Hyperledger Fabric in the supply chain.
+
+    The application will be written in Node.js. The chaincode that we will be using is the demonstrated scenario chaincode that we walked through in the previous section. Interacting with the chaincode is done by using the gRPC protocol to a peer on the network. The details of the gRPC protocol are taken care of by the Hyperledger Fabric Client Node.js SDK.
+    
+    
+    
+
+
 
 
 
