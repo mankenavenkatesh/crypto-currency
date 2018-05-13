@@ -68,3 +68,11 @@ Github
 Blockchain Developer Jobs 
 1. http://pragmaticcoders.com/jobs/blockchain-developer/
 2. https://blockgeeks.com/guides/?filter=latest
+
+
+Blockchain books to read
+1. https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388
+2. https://www.amazon.it/Mastering-Blockchain-Imran-Bashir-ebook/dp/B01NBBSPCD
+3. https://www.amazon.com/dp/178712214X/ref=sspa_dk_detail_0?psc=1&pd_rd_i=178712214X&pd_rd_wg=neNHc&pd_rd_r=PVEJERFP3JEKQTKVTVZQ&pd_rd_w=J4pUJ
+
+
